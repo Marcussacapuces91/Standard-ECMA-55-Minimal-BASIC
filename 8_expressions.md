@@ -32,7 +32,7 @@ String-expressions are composed of either a string-variable or a string-constant
 
 ```BASIC
     3*X - Y^2      A(1)+A(2)+A(3)    2^(-X)
-    -X/Y           SQR(X~2+Y^2)
+    -X/Y           SQR(X^2+Y^2)
 ```
     
 ## Semantics
