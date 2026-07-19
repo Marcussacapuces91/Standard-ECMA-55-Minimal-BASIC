@@ -65,7 +65,7 @@ A set of statements is nested within another set of statements when:
 
 - the nested set is physically contiguous, and
 - the nesting set (divided by the nested set) is non-null.
-<p></p>
+
 </dd>
 <dt>Print zone</dt>
 <dd markdown="1">
@@ -83,9 +83,9 @@ for the location of the radix point. Commonly, in a normalized floating point in
 significant digits of a representation are maintained in the significance.
 <div class="note information">
 <h4>NOTE:</h4>
-<p>The Standard requires that the ability of a conforming implementation to accept numeric representations be measured 
+<p markdown="1">_The Standard requires that the ability of a conforming implementation to accept numeric representations be measured 
 in terms of significant digits rather than the actual number of digits (that is including leading or trailing zeroes) in
-the representation.</p>
+the representation._</p>
 </div>
 </dd>
 <dt>Truncation</dt>
