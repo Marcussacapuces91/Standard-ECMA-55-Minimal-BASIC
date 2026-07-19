@@ -20,11 +20,11 @@ allows for an unconditional transfer.
 
     IF expl rel exp2 THEN line-number
 
-where "expl" and'texp2" are expressions and "rel" is a relational operator, allows for a conditional transfer.
+where "expl" and "exp2" are expressions and "rel" is a relational operator, allows for a conditional transfer.
 
 ### The gosub and return statements
 
-    GO SUB line-number 
+    GO SUB line-number
     RETURN
 
 allow for subroutine calls.
@@ -43,19 +43,19 @@ allows for program termination.
 
 ## Syntax
 
-1. goto-statement = GO space* TO line-number 
-2. if-then-statement = IF relational-expression THEN line-number  
+1. goto-statement = `GO` space* `TO` line-number
+2. if-then-statement = `IF` relational-expression `THEN` line-number
 3. relational-expression = numeric-expression relation numeric-expression / string-expression equality-relation
-   string-expression 
+   string-expression
 4. relation = equality-relation / less-than-sign / greater-than-sign / not-less / not-greater
-5. equality-relation = equals-sign / not-equals  
-6. not-less = greater-than-sign equals-sign 
-7. not-greater = less-than-sign equals-sign 
-8. not-equals = less-than-sign greater-than-sign 
-9. gosub-statement = GO space* SUB line-number  
-10. return-statement = RETURN 
-11. on-goto-statement = ON numeric-expression GO space* TO line-number (comma line-number)*
-12. stop-statement = STOP
+5. equality-relation = equals-sign / not-equals
+6. not-less = greater-than-sign equals-sign
+7. not-greater = less-than-sign equals-sign
+8. not-equals = less-than-sign greater-than-sign
+9. gosub-statement = `GO` space* `SUB` line-number
+10. return-statement = `RETURN`
+11. on-goto-statement = `ON` numeric-expression `GO` space* `TO` line-number (comma line-number)*
+12. stop-statement = `STOP`
 
 ## Examples
 
