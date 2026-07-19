@@ -8,7 +8,7 @@
 
 # Web site
 
-[https://marcussacapuces91.github.io/Standard-ECMA-55-Minimal-BASIC/](https://marcussacapuces91.github.io/Standard-ECMA-55-Minimal-BASIC/)
+[https://standard-ecma-55-minimal-basic.lab-allen.fr/](https://standard-ecma-55-minimal-basic.lab-allen.fr/)
 
 # Copyright
 
