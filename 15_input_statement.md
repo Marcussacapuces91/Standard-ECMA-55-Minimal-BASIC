@@ -7,7 +7,7 @@ next: 16_read_and_restore_statements.html
 
 ## General Description
 
-Input-statements provide for user interaction with a running program by allowing variables to be assigned values that 
+Input-statements provide for user interaction with a running program by allowing variables to be assigned values that
 are supplied by a user. The input-statement enables the entry of mixed string and numeric data, with data items being
 separated by commas. The general syntactic form of the input-statement is
 
@@ -15,7 +15,7 @@ separated by commas. The general syntactic form of the input-statement is
 
 ## Syntax
 
-1. input-statement    = `INPUT` variable-list 
+1. input-statement    = `INPUT` variable-list
 2. variable-list      = variable (comma variable)*
 3. input-prompt       = [implementation-defined]
 4. input-reply        = input-list end-of-line
@@ -34,7 +34,7 @@ separated by commas. The general syntactic form of the input-statement is
 
 An input-statement causes the variables in the variable-list to be assigned, in order, values from the input-reply. In
 the interactive mode, the user of the program is informed of the need to supply data by the output of an input-prompt.
-In batch mode, the input-reply is requested from the external source by an implementation-defined means. Execution of 
+In batch mode, the input-reply is requested from the external source by an implementation-defined means. Execution of
 the program is suspended until a valid input-reply has been supplied.
 
 The type of each datum in the input-reply shall correspond to the type of the variable to which it is to be assigned;
@@ -47,20 +47,20 @@ If the evaluation of a numeric datum causes an underflow, then its value shall b
 Subscript expressions in the variable-list are evaluated after values have been assigned to the variables preceding them
 (i.e. to the left of them) in the variable-list.
 
-No assignment of values in the input-reply shall take place un¬ til the input-reply has been validated with respect to
+No assignment of values in the input-reply shall take place until the input-reply has been validated with respect to
 the type of each datum, the number of input items, and the allowable range for each datum.
 
 ## Exceptions
 
 - The type of datum does not match the type of the variable to which it is to be assigned (nonfatal, the recommended
   recovery procedure is to request that the input-reply be re-supplied).
-- There is insufficient data in the input-list (nonfatal, the recommended recovery procedure is to request that the
+- There is insufficient data in the input-list (non-fatal, the recommended recovery procedure is to request that the
   input-reply be resupplied).
-- There is too much data in the input-list (nonfatal, the recommended recovery procedure is to request that the
+- There is too much data in the input-list (non-fatal, the recommended recovery procedure is to request that the
   input-reply be resupplied).
 - The evaluation of a numeric datum causes an overflow (non-fatal, the recommended recovery procedure is to request that
   the input-reply be resupplied).
-- A string datum contains too many characters (nonfatal, the recommended recovery procedure is to request that the
+- A string datum contains too many characters (non-fatal, the recommended recovery procedure is to request that the
   input-reply he resupplied).
 
 ## Remarks
