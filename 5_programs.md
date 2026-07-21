@@ -7,7 +7,9 @@ next: 6_constants.html
 
 ## General Description 
 
-BASIC is a line-oriented language. A BASIC program is a sequence of lines, the last of which shall be an end-line and each of which contains a keyword. Each line shall contain a unique line-number which serves as a label for the statement contained in that line. 
+BASIC is a line-oriented language. A BASIC program is a sequence of lines, the last of which shall be an end-line and
+each of which contains a keyword. Each line shall contain a unique line-number which serves as a label for the statement
+contained in that line. 
 
 ## Syntax 
 

@@ -19,11 +19,11 @@ forms of (optionally signed) numeric constants:
     
 where: 
 
-d is a decimal digit,<br>
-r is a full-stop<br>
-s is an optional sign, and<br> 
-E is the explicit character E.<br>
-A string-constant is a character string enclosed in quotation marks (see [4](4_characters_and_strings.md)).
+`d` is a decimal digit,<br>
+`r` is a full-stop<br>
+`s` is an optional sign, and<br> 
+`E` is the explicit character E.<br>
+`A` string-constant is a character string enclosed in quotation marks (see [4](4_characters_and_strings.md)).
 
 ## Syntax 
 
@@ -33,7 +33,7 @@ A string-constant is a character string enclosed in quotation marks (see [4](4_c
 4. significand = integer full-stop? / integer? fraction 
 5. integer = digit digit* 
 6. fraction = full-stop digit digit* 
-7. exrad = E sign? integer 
+7. exrad = `E` sign? integer 
 8. string-constant = quoted-string 
 
 ## Examples 

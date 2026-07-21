@@ -19,7 +19,7 @@ parentheses.
 String variables shall be named by a letter followed by a dollar sign. 
 
 Explicit declarations of variable types are not required; a dollar-sign serves to distinguish string from numeric
-variables, and the presence of a subscript distinguisnes a subscripted variable from a simple one.
+variables, and the presence of a subscript distinguishes a subscripted variable from a simple one.
 
 ## Syntax 
 
